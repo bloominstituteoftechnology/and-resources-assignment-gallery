@@ -28,6 +28,18 @@ class MainActivity : AppCompatActivity() {
         views[7].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.clouds_coconut_trees_daylight_2486168))
         views[8].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.colorful_colourful_houses_2501965))
         views[9].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.wallpaper_astronomy_astrophotography_2538107))
+
+        views[0].contentDescription=getString(R.string.adventure_automobile)
+        views[1].contentDescription=getString(R.string.aerial_photography)
+        views[2].contentDescription=getString(R.string.buildings)
+        views[3].contentDescription=getString(R.string.bridge)
+        views[4].contentDescription=getString(R.string.beautiful)
+        views[5].contentDescription=getString(R.string.flora)
+        views[6].contentDescription=getString(R.string.colors)
+        views[7].contentDescription=getString(R.string.coconut)
+        views[8].contentDescription=getString(R.string.houses)
+        views[0].contentDescription=getString(R.string.astronomy)
+
         /*<style name="imageStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

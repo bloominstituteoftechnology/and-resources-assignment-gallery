@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Gallery App</string>
+    <string name="abstract_expressionism_art">abstract_expressionism_art</string>
+    <string name="beach_cliff">beach cliff</string>
+    <string name="adventure_automobile">adventure_automobile</string>
+    <string name="aerial_photography">aerial_photography</string>
+    <string name="buildings">alley_architecture_buildings</string>
+    <string name="bridge">architecture_bridge</string>
+    <string name="beautiful">beautiful_breathtaking</string>
+    <string name="flora">bloom_blossom_flora</string>
+    <string name="colors">close_up_colorful</string>
+    <string name="coconut">clouds_coconut_trees</string>
+    <string name="houses">colourful_houses</string>
+    <string name="astronomy">wallpaper_astronomy</string>
 </resources>
