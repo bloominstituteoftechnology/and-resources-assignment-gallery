@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gallery App</string>
+    <string name="description_alleyway">The picture is of an alleyway</string>
+    <string name="description_sneakers">The picture is of a pair of sneakers floating</string>
+</resources>
