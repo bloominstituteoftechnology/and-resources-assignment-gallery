@@ -12,11 +12,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-   lateinit var views: Array<ImageView>
+   //lateinit var views: Array<ImageView>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //val views=Array<ImageView>(10){}
+        val views=Array(10){ ImageView(this)}
 
         views[0].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.adventure_automobile_classic_2533092))
         views[1].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.aerial_photography_aerial_shot_aerial_view_2583847))
@@ -52,8 +52,8 @@ class MainActivity : AppCompatActivity() {
             it.adjustViewBounds=true
             it.setPadding(10)
         }
-        for (i in 1..5)  left_column.addView(views[i])
-        for (i in 5..10)  right_column.addView(views[i])
+        for (i in 0..5)  left_column.addView(views[i])
+        for (i in 6..9)  right_column.addView(views[i])
 
 
 
