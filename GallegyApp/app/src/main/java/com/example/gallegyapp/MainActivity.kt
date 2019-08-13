@@ -62,14 +62,15 @@ class MainActivity : AppCompatActivity() {
         val layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
 
         //populating the list
-        imageViewList.forEachIndexed{ index, listImageView ->
-            listImageView.layoutParams = layoutParams
-            listImageView.adjustViewBounds = true
-            listImageView.setPadding(8,8,8,8)
+        imageViewList.forEachIndexed{ index, imageView ->
+            imageView.layoutParams = layoutParams
+            imageView.adjustViewBounds = true
+            imageView.setPadding(8,8,8,8)
             when {
-                index %2 != 0 -> column_left.addView(listImageView)
-                else -> column_right.addView(listImageView)
+                index %2 != 0 -> column_left.addView(imageView)
+                else -> column_right.addView(imageView)
             }
+
         }
 
     }

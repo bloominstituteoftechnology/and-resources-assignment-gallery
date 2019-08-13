@@ -22,9 +22,11 @@
             <ImageView
                     android:id="@+id/left_column_image"
                     style="@style/custom_image"
+                    android:contentDescription="@string/colorful_houses"
                     android:src="@drawable/colorful_colourful_houses_2501965"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
+
 
         </LinearLayout>
 
@@ -42,7 +44,8 @@
                     android:src="@drawable/wallpaper_astronomy_astrophotography_2538107"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:contentDescription="TODO"/>
+                    android:contentDescription="@string/stars_in_the_galaxy"/>
+
 
         </LinearLayout>
 
