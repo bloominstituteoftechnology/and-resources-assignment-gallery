@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <LinearLayout
+                      android:id="@+id/left_column"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      style="@style/VerticalColumn">
+            <ImageView
+                       android:id="@+id/image_left"
+                       android:src="@drawable/abstract_abstract_expressionism_art_2505693"
+                       style="@style/imageStyle"
+                       android:contentDescription="@string/abstract_expressionism_art"/>
+        </LinearLayout>
+
+        <LinearLayout
+                      android:id="@+id/right_column"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      style="@style/VerticalColumn"
+                       android:contentDescription="@string/beach_cliff">
+            <ImageView
+                       android:id="@+id/image_right"
+                       android:src="@drawable/afterglow_beach_cliff_2555285"
+                       style="@style/imageStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
